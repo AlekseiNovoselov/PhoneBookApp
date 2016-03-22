@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="success_category_add_text" type="id">Categoty was saved</item>
+</resources>

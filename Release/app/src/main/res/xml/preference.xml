@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:entries="@array/entries"
+        android:entryValues="@array/entry_values"
+        android:key="pref_dark_theme"
+        android:summary="@string/list1_summary"
+        android:title="@string/list1_title">
+    </ListPreference>
+</PreferenceScreen>

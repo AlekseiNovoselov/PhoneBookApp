@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Phonebook</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Drawer items -->
+    <string name="drawer_contacts_item">Contacts</string>
+    <string name="drawer_settings_item">Settings</string>
+    <string name="drawer_about_item">About</string>
+
+    <!-- Toolbar items -->
+    <string name="toolbar_contacts_item">Contacts</string>
+    <string name="toolbar_settings_item">Settings</string>
+    <string name="toolbar_about_item">About</string>
+    <string name="empty_string" />
+
+    <!-- About Fragment -->
+    <string name="about_text" >
+        <![CDATA[
+        <h1>PhoneBook</h1>
+        PhoneBook - mobile android app for creating saving and sharing contacts notes.
+        <br/><br/>
+        Delevoper: Novoselov Aleksei;
+        <br/>
+        TechMail Profile:
+        ]]>
+    </string>
+    <string name="profile_link_text">
+        <![CDATA[
+            https://park.mail.ru/alumni/11/417/
+        ]]>
+    </string>
+
+    <!-- Settings Fragment -->
+    <string name="list1_title">Theme</string>
+    <string name="list1_summary">Choose app theme</string>
+    <string-array name="entries">
+        <item>Light</item>
+        <item>Dark</item>
+    </string-array>
+    <string-array name="entry_values">
+        <item>LIGHT</item>
+        <item>DARK</item>
+    </string-array>
+
+    <!-- Strings related to login -->
+    <string name="prompt_name">Name</string>
+    <string name="prompt_password">Telephone number</string>
+    <string name="action_add_in_short">Add new</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!--CreateNodeActivity-->
+    <string name="create_node_toolbar_text">Create new one</string>
+    <string name="action_add_category_text">Choose Category</string>
+    <string name="categories_list">Categories</string>
+    <string name="create_categories">create categoty</string>
+    <string name="choose_color">choose color</string>
+    <string name="categories_name">category name</string>
+    <string name="success_category_add_text_begin">Category</string>
+    <string name="success_category_add_text_end">was added</string>
+
+
+    <string name="remove_category_dialog_title" >Remove Category</string>
+    <string name="remove_category_dialog_message">Are you sure remove category</string>
+    <string name="remove_category_dialog_positive_button_text">Yes</string>
+    <string name="remove_category_dialog_negative_button_text">No</string>
+    <string name="toolbar_detail_item">Contact</string>
+    <string name="empty_category_add_alert">Write something first</string>
+    <string name="success_contact_create_text_begin">Contact</string>
+    <string name="success_contact_create_text_end">was created</string>
+    <string name="error_write_to_db">Write DB Error</string>
+    <string name="empty_contact_add_alert">Write something first</string>
+    <string name="delete_category_alert_start">Category</string>
+    <string name="delete_category_alert_end">was removed</string>
+    <string name="error_remove_category">error remove category</string>
+    <string name="delete_contact_success_text_start">Contact</string>
+    <string name="delete_contact_success_text_end">was deleted</string>
+    <string name="error_delete_contact">Error delete Contact</string>
+    <string name="remove_contact_dialog_title">Delete contact</string>
+    <string name="remove_contact_dialog_message">Are you sure remove contact</string>
+    <string name="remove_contact_dialog_positive_button_text">Yes</string>
+    <string name="remove_contact_dialog_negative_button_text">No</string>
+    <string name="share_contact_name">Contact:</string>
+    <string name="share_phone_number">Phone number</string>
+
+
+</resources>

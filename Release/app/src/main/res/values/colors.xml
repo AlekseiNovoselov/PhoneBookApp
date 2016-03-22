@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background">#ffeeeeee</color>
+
+    <!-- alternative color palette -->
+    <!--<color name="colorPrimaryInverse">#FF4081</color>-->
+    <color name="colorPrimaryDarkInverse">#004081</color>
+    <color name="colorAccentInverse">#F0F181</color>
+
+</resources>

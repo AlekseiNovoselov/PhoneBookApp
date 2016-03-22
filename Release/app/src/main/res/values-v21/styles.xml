@@ -1,0 +1,27 @@
+<resources>>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.Dark" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <!--<item name="colorPrimary">@color/colorPrimaryInverse</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDarkInverse</item>-->
+        <!--<item name="colorAccent">@color/colorAccentInverse</item>-->
+    </style>
+
+</resources>

@@ -1,0 +1,104 @@
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:locale="ru">
+
+    <string name="app_name">Phonebook</string>
+
+    <string name="navigation_drawer_open">Открыть шторку</string>
+    <string name="navigation_drawer_close">Закрыть шторку</string>
+
+    <string name="action_settings">Настройки</string>
+
+    <!-- Drawer items -->
+    <string name="drawer_contacts_item">Контакты</string>
+    <string name="drawer_settings_item">Настройки</string>
+    <string name="drawer_about_item">О приложении</string>
+
+    <!-- Toolbar items -->
+    <string name="toolbar_contacts_item">Контакты</string>
+    <string name="toolbar_settings_item">Настройки</string>
+    <string name="toolbar_about_item">О приложении</string>
+
+    <!-- About Fragment -->
+    <string name="about_text" >
+        <![CDATA[
+        <h1>PhoneBook</h1>
+        PhoneBook - мобильное андроид приложения для создания, хранения и расшаривания заметок о контактах.
+        <br/><br/>
+        Разроботчик: Новоселов Алексей;
+        <br/><br/>
+        Профиль выпускника Технопарка:
+        ]]>
+    </string>
+
+    <string name="profile_link_text">
+        <![CDATA[
+            https://park.mail.ru/alumni/11/417/
+        ]]>
+    </string>
+
+    <!-- Settings Fragment -->
+    <string name="list1_title">Тема</string>
+    <string name="list1_summary">Выбрать тему приложения</string>
+    <string-array name="entries">
+        <item>Светлая</item>
+        <item>Темная</item>
+    </string-array>
+    <string-array name="entry_values">
+        <item>LIGHT</item>
+        <item>DARK</item>
+    </string-array>
+
+    <!-- Strings related to login -->
+    <string name="prompt_name">Имя</string>
+    <string name="prompt_password">Номер телефона</string>
+    <string name="action_add_in_short">Добавить</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <!--CreateNodeActivity-->
+    <string name="create_node_toolbar_text">Добавить контакт</string>
+    <string name="action_add_category_text">Выбрать категории</string>
+    <string name="categories_list">Категории</string>
+    <string name="create_categories">Создать категорию</string>
+    <string name="choose_color">Выбрать цвет</string>
+    <string name="categories_name">Имя категории</string>
+    <string name="success_category_add_text_begin">Категория</string>
+    <string name="success_category_add_text_end">была создана</string>
+    <string name="empty_category_add_alert">Введите имя категории</string>
+
+
+    <string name="remove_category_dialog_title" >Удалить категорию</string>
+    <string name="remove_category_dialog_message">Вы действительно хотите удалить категорию</string>
+    <string name="remove_category_dialog_positive_button_text">Да</string>
+    <string name="remove_category_dialog_negative_button_text">Нет</string>
+    <string name="toolbar_detail_item">Контакт</string>
+    <string name="success_contact_create_text_begin">Контакт</string>
+    <string name="success_contact_create_text_end">создан</string>
+    <string name="error_write_to_db">Ошибка записи в базу данных</string>
+    <string name="empty_contact_add_alert">Заполните все обязательные поля</string>
+    <string name="delete_category_alert_start">Категория</string>
+    <string name="delete_category_alert_end">была удалена</string>
+    <string name="error_remove_category">Ошибка при удалении категории</string>
+    <string name="delete_contact_success_text_start">Контакт</string>
+    <string name="delete_contact_success_text_end">был удален</string>
+    <string name="error_delete_contact">Ошибка удаления контакта</string>
+    <string name="remove_contact_dialog_title">Удалить контакт</string>
+    <string name="remove_contact_dialog_message">Вы действительно хотите удалить контакт</string>
+    <string name="remove_contact_dialog_positive_button_text">Да</string>
+    <string name="remove_contact_dialog_negative_button_text">Нет</string>
+    <string name="share_contact_name">Имя:</string>
+    <string name="share_phone_number">Телефонный номер:</string>
+
+
+
+
+
+
+
+</resources>
